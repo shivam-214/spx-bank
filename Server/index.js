@@ -21,6 +21,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/customers", customerRoutes);
+
 app.use("/api/history", historyRoutes);
 
 app.use((error, req, res, next) => {
